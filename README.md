@@ -1,5 +1,9 @@
 # 100 Days Of Code With TypeScript
 
+## Course Material
+![Screenshot from 2022-10-31 22-19-50](https://user-images.githubusercontent.com/93985482/199113284-06ecefd5-3237-4b53-8237-bcc2dd673144.png)
+
+
 ## Topics Covered So Far
 - TypeScript Foundamentals
 - Decleration files
@@ -18,5 +22,5 @@
 - Async/Await in TypeScript
 - Typescript and Angular
 
-## Course Material
+
 
