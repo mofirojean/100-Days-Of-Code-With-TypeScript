@@ -3,6 +3,8 @@
 ## Course Material
 ![Screenshot from 2022-10-31 22-19-50](https://user-images.githubusercontent.com/93985482/199113284-06ecefd5-3237-4b53-8237-bcc2dd673144.png)
 
+You can get a copy of the book [here](https://www.packtpub.com/product/the-typescript-workshop/9781838828493)
+
 
 ## Topics Covered So Far
 - TypeScript Foundamentals
