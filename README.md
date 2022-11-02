@@ -14,9 +14,9 @@ You can get a copy of the book [here](https://www.packtpub.com/product/the-types
 - Interface and Inheritance
 - Advance Types
 - Decorators
+- Dependency Injection in Typescript
 
 ## Topics Left to Cover
-- Dependency Injection in Typescript
 - Generics and Conditional Types
 - Event Loop and Asynchronous Behaviors
 - High-Order Functions and Callbacks
