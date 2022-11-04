@@ -1,4 +1,5 @@
 import mysql from 'mysql';
+import * as connect from './random'
 
 
 class MySqlUserRepository implements UserRepository {
