@@ -1,15 +1,15 @@
-// creating a simple function
-
-function identity (x: number): number {
-    return x
+interface FetchResponse {
+    status: number;
+    headers: Headers;
+    data: any;
 }
 
-// creating thesame function for a string
-function identityString (x: string): string {
-    return x
-}
+async function fetchJson<T>(url: string): Promise<FetchResponse> {
+    const response = await fetch(url);
 
-// working with generic
-function identityG<T> (x : T): T {
-    return x
+    return {
+        headers: response.headers,
+        status: response.status,
+        data: await response.json()
+    };
 }
