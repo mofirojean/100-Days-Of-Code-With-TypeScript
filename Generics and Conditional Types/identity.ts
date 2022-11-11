@@ -1,10 +1,10 @@
-interface FetchResponse {
+interface FetchResponse<T> {
     status: number;
     headers: Headers;
-    data: any;
+    data: T;
 }
 
-async function fetchJson<T>(url: string): Promise<FetchResponse> {
+export async function fetchJson<T>(url: string): Promise<FetchResponse<T>> {
     const response = await fetch(url);
 
     return {
